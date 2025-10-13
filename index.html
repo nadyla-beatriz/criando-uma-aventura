@@ -3,18 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A loja quebrada</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
 </head>
 <body>
     <main>
-          <div>
-             <p>Certo dia, uma moça pediu para sua filha ir até uma loja para escolher uma roupa para o casamento de sua amiga, a menina não queria ir e sua mãe disse que ela só tinha duas opções</p>
-       	 <button> Santa Catarina </button>
-          </div>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Certo dia, uma moça pediu para sua filha ir até uma loja para escolher uma roupa para o casamento de sua amiga, a menina não queria ir e sua mãe disse que ela só tinha duas opções</p>
+            <button class="btn-proximo" data-proximo="1">Ir com o vestido feio</button>
+            <button class="btn-proximo" data-proximo="2">Ir até a loja escoher um vestido</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Chegar lá e todo mundo começa a dar risada e fica de fofoca sobre a roupa</p>
+            <button class="btn-proximo" data-proximo="3">sair correndo para rua e</button>
+            <button class="btn-proximo" data-proximo="4">fica lá assim mesmo</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Chega a loja para escolher um vestido e a vendedora que estava me atendeno começa a me tratar super mal por estar vestida com uma roupa toda cafruncha e mal</p>
+            <button class="btn-proximo" data-proximo="5">Volta para casa e contar para minha mãe</button>
+            <button class="btn-proximo" data-proximo="6">Eu mesma resolver a situação</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>passar correndo a rua e ser atropelada pelo marido da noiva</p>
+            <button class="btn-proximo" data-proximo="7">Chamaram a minha mãe</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Encara todo mundo e fazer cara de metida com a minha roupa toda cafruncha</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Minha mãe se irrita e ir até a loja tirar satisfação com a mulher da loja</p>
+            <button class="btn-proximo" data-proximo="7">a moça chamar a policia</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Xingar a mulher pelo que ela estava fazendo comigo</p>
+            <button class="btn-proximo" data-proximo="8">O conselho do tutelar passa na hora</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Chegando la a minha mãe começo quebra tudo de raiva</p>
+            <button class="btn-proximo" data-proximo="9">Seguraram ela</button>
+            <button class="btn-proximo" data-proximo="10">a policia chegou lá</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>A dona da loja chamou e me chamou de trombadinha e disse que eu estava tentando roubar!</p>
+            <button class="btn-proximo" data-proximo="7">ligaram para minha mãe</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>ela xingo todo mundo por estar me julgando</p>
+            <button class="btn-proximo" data-proximo="11">Conseguiram acalmar ela</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Chegou la perguntou o que estava acontecendo e tentaram acalmar ela</p>
+            <button class="btn-proximo" data-proximo="12">A policia resolveu o problema</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>DMe pediram desculpa e disseram que não ia mais me julgar e minha mãe fico muito feliz e fomos para casa</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Ela se acalmou e a policia foi embora e cada um foi para sua casa</p>
+            <button class="btn-proximo" data-proximo="11">Conseguiram acalmar ela</button>
+        </div>
     </main>
-        
-        
-        
-        
+    <script src="script.js"></script>
 </body>
 </html>
