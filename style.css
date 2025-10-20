@@ -1,7 +1,7 @@
 body {
-    background-color: #f4b6fc;
-    color: rgb(0, 0, 0);
-    font-family: "New Rocker", system-ui;
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,24 @@ body {
 }
 
 button {
-    background-color: #f4b6fc;
-    color: rgb(0, 0, 0);
-   font-family: "New Rocker", system-ui;
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
 }
